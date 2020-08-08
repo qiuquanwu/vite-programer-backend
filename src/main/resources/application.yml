@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: programmerTranslator
+serve:
+    port: 8080
+ydCloud:
+    translate:
+        ydUrl: https://openapi.youdao.com/api
+        appKey: xxx
+        appSecret: xxx
