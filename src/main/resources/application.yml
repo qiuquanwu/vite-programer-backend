@@ -6,5 +6,9 @@ serve:
 ydCloud:
     translate:
         ydUrl: https://openapi.youdao.com/api
-        appKey: xxx
-        appSecret: xxx
+        appKey: xxxx
+        appSecret: xxxx
+baidu:
+    translate:
+        appKey: xxxx
+        appSecret: xxxx

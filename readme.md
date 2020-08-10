@@ -12,7 +12,8 @@
 - 获取appKey和appSecret
 ![](https://i.loli.net/2020/08/08/76hZuMIxvAcOBlK.png)
 
-修改配置文件(src\main\resources\application.yml)的appKey和appSecret
+- 百度翻译接口申请 https://fanyi-api.baidu.com/
+- 修改配置文件(src\main\resources\application.yml)的appKey和appSecret
 ```yaml
 spring:
     application:
@@ -24,4 +25,8 @@ ydCloud:
         ydUrl: https://openapi.youdao.com/api
         appKey: xxxx
         appSecret: xxxx
+baidu:
+    translate:
+        appKey: xxxxx
+        appSecret: xxxxx
 ```
